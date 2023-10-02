@@ -1,13 +1,8 @@
-# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL, 2023
-
-![Copy of Copy of Fullstack Twitter Clone (1)](https://github.com/AntonioErdeljac/next13-ecommerce-admin/assets/23248726/088760cb-837d-44b7-a959-63089385d0a0)
-
+# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, PostgreSQL, 2023
 
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
-This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, MySQL
-
-[VIDEO TUTORIAL](https://youtu.be/5miHyP6lExg)
+This is a repository for a Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, PostgreSQL
 
 Key Features:
 
@@ -27,7 +22,7 @@ Key Features:
 - Order creation
 - Stripe checkout
 - Stripe webhooks
-- MySQL + Prisma + PlanetScale
+- Prisma + PostgreSQL
 
 ### Prerequisites
 
@@ -36,7 +31,7 @@ Key Features:
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/AntonioErdeljac/next13-ecommerce-admin.git
+git clone  https://github.com/Hubytskyi/next-ecm-admin.git
 ```
 
 ### Install packages
@@ -70,7 +65,7 @@ FRONTEND_STORE_URL=http://localhost:3001
 STRIPE_WEBHOOK_SECRET=
 ```
 
-### Connect to PlanetScale and Push Prisma
+### Connect to DB and Push Prisma
 ```shell
 npx prisma generate
 npx prisma db push
